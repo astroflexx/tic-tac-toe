@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,43 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    
+    <h1>Tic Tac Toe</h1>
+    <h2 class="turn">It is John's turn</h2>
+    <div class="main">
+        <div class="player1">
+            <h2 class="player1name">Player 1</h2> <br>
+            <div class="player1name">
+                <label for="name1">Enter name: </label>
+                <input type="text" id="name1" class="player1name"> <br> <br>
+                <button type="submit" style="height: 30px; width: 80px;" class="player1name">Enter</button>
+            </div>
+        </div>
+        <div class="board">
+            <div class="cell" style="background-color: lightskyblue;">
+                <img src="x-thin-svgrepo-com.svg" alt="X">
+            </div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell" style="background-color: lightgreen;">
+                <img src="circle-thin-svgrepo-com.svg" alt="O">
+            </div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="player2">
+            <h2 class="player2name">Player 2</h2> <br>
+            <div class="player2name">
+                <label for="name2">Enter name: </label>
+                <input type="text" id="name2" class="player2name"> <br> <br>
+                <button type="submit" style="height: 30px; width: 80px;" class="player2name">Enter</button>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

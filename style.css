@@ -6,4 +6,36 @@
 
 :root {
     height: 100vh;
+    background-color: coral;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.board {
+    height: 450px;
+    width: 450px;
+    background-color: white;
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cell {
+    border: 1.5px solid black;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
