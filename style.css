@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 :root {
@@ -29,13 +28,26 @@ h1, h2 {
     border: 1.5px solid black;
 }
 
-img {
-    height: 100%;
-    width: 100%;
-}
-
 .main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.reset {
+    height: 100px;
+    width: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.rst {
+    height: 50px;
+    width: 100px;
 }
